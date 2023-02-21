@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-torrent-downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.mjs",
+    "dev": "nodemon server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mInzamamMalik/nodejs-torrent-downloader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mInzamamMalik/nodejs-torrent-downloader/issues"
+  },
+  "homepage": "https://github.com/mInzamamMalik/nodejs-torrent-downloader#readme",
+  "dependencies": {
+    "progress-stream": "^2.0.0",
+    "torrent-stream": "^1.2.1"
+  }
+}
